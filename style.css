@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(3, 57, 75);
+    font-family: 'VT323', monospace;
+}
+.navbar{
+    display:flex;
+    background-color: lightblue;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:225px;
+    padding-right:225px;
+    border: white solid;
+    border-radius: 90px;
+    
+}.navbar img{
+    width: 25px;
+}.navbar img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.bio{
+    display: flex;
+    background: lightblue;
+    margin-top: 25px;
+    border: white solid;
+    border-radius: 90px;
+    
+}#me{     
+    width: 250px;
+    border:solid white;
+    border-radius: 360px;
+    margin: 20px;
+    align-self: flex-start;
+} #name{
+    font-size: 75px;
+    width:40%;
+    align-self: center;
+}#about{
+    font-size: 17px;
+    width:80%;
+    align-self: center;
+    margin-right: 25px;    
+}
+.education{
+    background: lightblue;
+    border: white solid;
+    margin-top: 25px;
+    margin-bottom: 12.5px;
+    border-radius: 90px;
+    padding-bottom: 12.5px;
+}
+#ed{
+    text-align: center;
+    font-size: 50px;
+    
+}.edPicture{
+    width:150px;
+    justify-content: space-around;
+    margin-left:75px;
+    margin-right: 75px;
+}.education img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    border: white solid;
+    border-radius: 25px;
+    background: lightblue;
+    margin-top: 25px;
+    padding-top: 12.5px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}#projects{
+    text-align: center;
+    font-size: 50px;
+}.proj{
+    display: flex;
+    flex-direction: column;
+    width: 23%
+}
+
+
+@media(max-width:750px){
+    .navbar{
+        padding: 15%;
+      
+    }.navbar img{
+        width:100%;
+        justify-content: space-between;
+    }
+   .bio{
+       flex-direction: column;
+       justify-content: center;
+       border-radius: 10%;
+   }#me{
+       width:90%
+   }#name{
+       text-align: start;
+       font-size: 200%;
+   }.edPicture{
+       display: flex;
+       justify-content: center;
+       margin-left: auto;
+       margin-right: auto;
+       padding-bottom: 10px;
+   }.projects{
+       padding: 0%;
+   }
+   .proj{
+       margin-left: auto;
+       margin-right: auto;
+       width:90%;
+       text-align: center;
+       font-size: 200%;
+       
+   }
+}
+/*this is new
+
+
+
+
